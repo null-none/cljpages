@@ -3,13 +3,11 @@
 Lightweight HTML builder in pure Clojure, using only simple tag functions and a renderer.
 
 - `src/cljpages/core.clj` — only tag helpers + renderer + `emit!` (no example, no `-main`)
-- `example/example.clj` — sample usage that builds a page and writes `out/index.html`
 
-## Run the example
+## Run the html
 ```bash
-clj -M:example
-# OK → out/index.html
-# open out/index.html
+clj -M:html
+OK → public ( 4 files generated )
 ```
 
 ## Use in a REPL

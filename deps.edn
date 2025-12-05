@@ -1,6 +1,5 @@
 {
-  :paths ["src" "example"]
-  :deps {org.clojure/clojure {:mvn/version "1.11.3"}}
-  :aliases
-  {:example {:main-opts ["-m" "example"]}}
+ :paths ["src" "html"]
+ :deps {org.clojure/clojure {:mvn/version "1.11.3"}}
+ :aliases {:html {:main-opts ["-m" "site"]}}
 }
